@@ -9,7 +9,7 @@ class ComposerStaticInitbba42e22aa4f85cd29bdcedc6d88ee5a
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'MVC\\' => 5,
+            'MVC\\' => 4,
         ),
     );
 

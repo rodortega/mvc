@@ -1,0 +1,22 @@
+{
+    "name": "rodortega/mvc",
+    "description": "MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rod Ortega",
+            "email": "rodcarlos2121@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "MVC\\" : "application/"
+        }
+    }
+}

@@ -106,7 +106,7 @@ $_FILTERS = array(
     'gender' => 'trim'
 );
 
-$_POST = Validator->filter($_POST, $_FILTERS);
+$_POST = $Validator->filter($_POST, $_FILTERS);
 $Validator->validate($_POST, $_RULES, $_FIELDS);
 */
 
